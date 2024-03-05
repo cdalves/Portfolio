@@ -15,7 +15,7 @@ header{
 }
 
 #perfil{
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -25,8 +25,8 @@ header{
     display: flex;
 }
 
-#perfil h2{
-    font-size: "san sefire";
+#perfil h1{
+    color: #ffffff;
     text-align: center;
 }
 
@@ -53,7 +53,24 @@ header{
     padding: 20px;
 }
 
+#aboutText h1{
+  font-size: 3rem;
+}
 
+#aboutText p{
+    font-size: 1.5rem;
+  }
+
+#aboutText h2{
+    margin: 10px 0;
+  }
+  
+
+#tec{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
 
 
 
