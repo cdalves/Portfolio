@@ -8,11 +8,13 @@ body{
 
 }
 
+
 header{
     height: 400px;
     background: #111111;
     display: flex;
 }
+
 
 #perfil{
     width: 400px;
@@ -30,9 +32,12 @@ header{
     text-align: center;
 }
 
-#about{
+.container{
     width: 80%;
     margin: 20px auto;
+}
+
+#about{
     display: grid;
     grid-template-areas: "imgSobre aboutText aboutText";
 }
