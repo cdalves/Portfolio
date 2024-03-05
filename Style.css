@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #171717;
+
+}
+
+header{
+    height: 400px;
+    background: #111111;
+    display: flex;
+}
+
+#perfil{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#imgPerfil{
+    width: 200px;
+    margin: 20px auto;
+    display: flex;
+}
+
+#perfil h2{
+    font-size: "san sefire";
+    text-align: center;
+}
+
+#about{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas: "imgSobre aboutText aboutText";
+}
+
+#imgSobre{
+    width: 300px;
+    grid-area: "imgSobre";
+    grid-column: imgSobre;
+    grid-row: imgSobre;
+}
+
+#aboutText{
+    text-align: justify;
+    grid-area: "aboutText";
+    grid-column: aboutText;
+    grid-row: aboutText;
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+
+
+
+
+footer{
+    background: #111111;
+    height: 20px;
+    text-align: center;
+    color: #ffffff;
+}
