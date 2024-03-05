@@ -5,9 +5,11 @@
 
 body{
     background: #171717;
-
 }
 
+h1{
+    color: #ffffff;
+}
 
 header{
     height: 400px;
@@ -77,8 +79,26 @@ header{
     display: flex;
 }
 
+#service{
+    margin-top: 5rem;
 
+}
 
+#service ul{
+    width: 95%;
+    margin: 20px auto;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#service li{
+    border: 3px solid #444F8B;
+    padding: 40px 50px;
+    border-radius: 15px;
+    color: #ffffff;
+}
 
 footer{
     background: #111111;
