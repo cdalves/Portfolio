@@ -11,6 +11,10 @@ h1{
     color: #ffffff;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     height: 400px;
     background: url("./assets/BG-header.png") #111111;
@@ -101,6 +105,28 @@ header{
     border-radius: 15px;
     color: #ffffff;
     font-size: 1.5rem;
+}
+
+#contact{
+    margin-top: 50px;
+}
+
+#contact ul{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+    text-indent: 20px;
+}
+
+#iconEmail{
+    width: 40px;
+}
+
+.info{
+    color: #ffffff;
+    font-size: 1.2rem;
+    position: relative;
+    top: -15px;
 }
 
 footer{
