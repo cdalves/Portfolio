@@ -5,6 +5,7 @@
 
 body{
     background: #171717;
+    font-family: sans-serif;
 }
 
 h1{
@@ -24,27 +25,23 @@ header{
 }
 
 #navBar{
-    width: 100%;
     display: flex;
-   
+    position: absolute;
+    right: 20px
+    
 }
 
 #navBar ul{
-    width: 200px;
+    width: 250px;
     padding: 10px;
     display: flex;
     list-style: none;
     justify-content: space-between;
-    border: 1px solid red;
-    margin-left: 20px;
-    
 }
-
 
 #navBar a{
     color: aliceblue;
-    padding: 5px;
-    
+    padding: 5px; 
 }
 
 #navBar a:hover{
@@ -61,7 +58,7 @@ header{
 
 #imgPerfil{
     width: 200px;
-    margin: 20px auto;
+    margin: 50px auto;
     display: flex;
 }
 
