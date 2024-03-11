@@ -23,6 +23,37 @@ header{
     display: flex;
 }
 
+#navBar{
+    width: 100%;
+    display: flex;
+   
+}
+
+#navBar ul{
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin-left: 20px;
+    
+}
+
+
+#navBar a{
+    color: aliceblue;
+    padding: 5px;
+    
+}
+
+#navBar a:hover{
+    color: black;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 #perfil{
     width: 400px;
     margin: 0 auto;
